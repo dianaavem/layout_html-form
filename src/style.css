@@ -1,1 +1,8 @@
-/* styles go here */
+.group {
+  margin: 20px 0;
+}
+
+.form_field {
+  display: block;
+  margin: 10px 0;
+}
