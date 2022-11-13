@@ -44,7 +44,7 @@
         </label>
 
         <label class="form_field">
-          How old are you?
+          How old are You?
           <input 
             type="number" 
             name="age" 
@@ -68,7 +68,6 @@
             type="checkbox" 
             name="agreement" 
             required 
-            checked
           >
         </label>
 
@@ -105,21 +104,27 @@
       <fieldset class="group">
         <legend>An interesting fact about you!</legend>
 
-        <label class="radio">
-          Do you love cats?
-          <input 
-            type="radio" 
-            name="cats" 
-            value="Yes"
-          >Yes
-        </label>
+        <label class="form_field">
 
-        <label class="radio">
-          <input 
-            type="radio" 
-            name="cats" 
-            value="No"
-          >No
+          <label class="radio">
+            Do you love cats?
+            <input 
+              type="radio" 
+              name="cats" 
+              value="Yes"
+            >
+            Yes
+          </label>
+
+          <label class="radio">
+            <input 
+              type="radio" 
+              name="cats" 
+              value="No"
+            >
+            No
+          </label>
+
         </label>
 
         <label class="form_field">
@@ -144,8 +149,6 @@
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
-            <option value="Honda">Honda</option>
-            <option value="Lexus">Lexus</option>
           </select>
         </label>
 
@@ -169,8 +172,8 @@
           Comments:
           <textarea 
             name="comments" 
-            cols="30" 
-            rows="5" 
+            cols="20" 
+            rows="2" 
             autocomplete="off">
           </textarea>
         </label>
@@ -178,8 +181,8 @@
         <label class="form_field">
           Would you recommend us?
           <select name="recommend" required>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
           </select>
         </label>
 
